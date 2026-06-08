@@ -459,13 +459,6 @@ def main():
 
     st.markdown("---")
 
-    # ==============================
-    # ---- METRIK EVALUASI MODEL ----
-    # ==============================
-    render_model_evaluation()
- 
- 
-
     # ---- INSIGHT & REKOMENDASI ----
     st.subheader("💡 Insight & Rekomendasi")
 
