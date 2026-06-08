@@ -427,7 +427,7 @@ def main():
 
     # ---- HEATMAP ----
     st.subheader("🔥 Rata-rata Intensitas Gejala per Penyakit")
-    st.caption("Nilai mendekati 1 menunjukkan gejala sangat sering muncul pada penyakit tersebut.")
+    st.caption("Warna semakin gelap menunjukkan gejala sangat sering muncul pada penyakit tersebut.")
 
     # Filter hanya heatmap features yang tersedia di dataframe
     available_heatmap = [f for f in HEATMAP_FEATURES if f in filtered_df.columns]
